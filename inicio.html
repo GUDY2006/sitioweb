@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="miStyle.css">
+    <script src="miScript.js"></script>
+    <title>Boletin Estudiantil</title>
+</head>
+
+<body onload="listaNotas()">
+    <img src="image.png" alt="Logo" style="width: 200px;">
+    <h2>Bienvenido a tu boletín estudiantil</h2>
+</div>
+
+<div class="Estudiante">
+    <h3>Alumno: Donaldo Jeronimo</h3>
+</div>
+<div>
+    <h4>Promedio: <span id="promedio"></span></h4>
+    <label for="nota">Nota1</label>
+    <input type="number" placeholder="Ingrese numero"><br>
+    <label for="nota">Nota2</label>
+    <input type="number" placeholder="Ingrese numero"><br>
+    <label for="nota">Nota3</label>
+    <input type="number" placeholder="Ingrese numero"><br>
+    <label for="nota">Nota4</label>
+    <input type="number" placeholder="Ingrese numero"><br>
+    <button onclick="calcularpromedio()">Calcular promedio</button>
+
+    <h4>Nota mas alta: <span id="Nota"></span></h4>
+    <button onclick="notaMasAlta()">Nota mas alta</button>
+
+    <h4>¿Hubo algún aplazo?: <span id="aplazo"></span></h4>
+    <button onclick="hayPlazo()">Consultar aplazo</button>
+
+</div>
+</body >
+
+</html >

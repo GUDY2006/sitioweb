@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+label{
+    margin: 2px;
+}
+
+input{
+    margin: 2px;
+}
+
+h3{
+    color: rgb(68, 68, 223);
+}
+
+button{
+    height: 35px;
+    width: 125px;
+    background-color:darkblue;
+    color: white;
+}
